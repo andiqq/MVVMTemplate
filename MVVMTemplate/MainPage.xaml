@@ -5,11 +5,6 @@
              xmlns:mvvmTemplate="clr-namespace:MVVMTemplate"
              x:DataType="mvvmTemplate:MainViewModel"
              x:Class="MVVMTemplate.MainPage">
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <mvvmTemplate:CountConverter x:Key="CountConverter"/>
-        </ResourceDictionary>
-    </ContentPage.Resources>
 
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25" HorizontalOptions="Center">
